@@ -1,0 +1,99 @@
+@import './variaveis/variaveis.scss';
+@import './mixin/mixin.scss';
+
+header{
+    @include cabecalho;
+}
+
+.header-top{
+    @include cabecalho-topo;
+}
+
+header .home{
+    @include cabecalho-home;
+}
+
+.menu{
+    @include menu;
+}
+
+.x{
+    @include x;
+}
+
+.header-bottom{
+    @include cabecalho-fundo;
+}
+
+.nome-paciente{
+    @include nome-paciente;
+}
+
+.idade-paciente{
+    @include idade-paciente;
+}
+
+.idade-paciente::after{
+cursor: pointer;
+content: url("/assets/imagens/clarity_edit-solid.png");
+}
+
+hr{
+    width:$hr;
+}
+
+.informacoes-paciente ul{
+    @include informacoes-paciente-ul;
+}
+
+.informacoes-paciente ul li{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    cursor: pointer;
+}
+
+#funcionalidades::before{
+    @include funcionalidades;
+}
+
+#anotacoes::before{
+    @include anotacoes;
+}
+
+#dados-paciente::before{
+    content: url("../assets/imagens/pessoa.png");
+    padding-right: 8px;
+}
+
+#consulta::before{
+    content: url(/assets/imagens/bandeirinha.png);
+    padding-right: 8px;
+}
+
+@media only screen and(max-width: 600px){
+    .informacoes-paciente ul{
+        @include media-informacoes-paciente;
+    }
+}
+
+.hide{
+    @include efeito-esconde;
+}
+
+.show{
+    @include efeito-mostrar;
+}
+
+.informacoes-paciente ul li{
+    @include informacoes-paciente-ul-li
+}
+
+.menu {
+    @include visibilidade;
+}
+
+.x{
+    @include visibilidade;
+}
+

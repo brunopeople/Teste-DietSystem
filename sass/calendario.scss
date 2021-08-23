@@ -1,0 +1,54 @@
+@import '../sass/variaveis/variaveis.scss';
+@import '../sass/mixin/mixins-calendario.scss';
+
+.calendario {
+    @include calendario;
+}
+
+.month{
+    @include month;
+}
+
+.month ul{
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li{
+    @include month-ul-li;
+}
+
+.month .prev{
+    @include mes-anterior;
+}
+
+.month .next{
+    @include mes-proximo;
+}
+
+.weekdays{
+    @include weekdays;
+}
+
+.weekdays li{
+    @include weekdays-li;
+}
+
+.days {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.days li{
+    @include days-li;
+}
+
+.days li .active{
+    @include days-li-active;
+}
+
+@media only screen and (max-width: 600px){
+    .calendario{
+        position: unset;
+    }
+}

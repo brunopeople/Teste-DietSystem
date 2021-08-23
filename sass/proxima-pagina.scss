@@ -1,0 +1,6 @@
+@import '../sass/variaveis/variaveis.scss';
+@import '../sass/mixin/mixin-seta.scss';
+
+.seta{
+    @include seta;
+}

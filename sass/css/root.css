@@ -1,0 +1,14 @@
+:root{
+    --color-1:#777777;
+    --color-2:#E5E5E5;
+    --color-3:#4ECB71;    
+    --color-white: #fff;
+}
+* 
+
+{
+   font-size: 1em;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+   color:  var(--color-1);
+}

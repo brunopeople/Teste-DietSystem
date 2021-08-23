@@ -1,0 +1,124 @@
+@import '../variaveis/variaveis.scss';
+
+@mixin body{
+    background-color: var($cor-2);
+    overflow-x: hidden;
+}
+
+// mixin do header
+
+@mixin cabecalho{
+    background-color: $cor-4;
+    padding: $preenchimento-header
+}
+
+@mixin cabecalho-topo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin cabecalho-home{
+    position: absolute;
+    left: $esquerda-home;
+    border-radius: $raio-borda-home;
+    cursor: pointer;
+    width: $largura-home;
+    height: $altura-home;
+}
+
+@mixin menu{
+    position: absolute;
+    right: $direita-menu;
+    cursor: pointer;
+    font-size: 2rem;
+    visibility: hidden;
+}
+
+@mixin x{
+    visibility: hidden;
+    position: absolute;
+    right: $direita-x;
+    top: $topo-x;
+    font-size: $tamanho-fonte-x;
+}
+
+@mixin cabecalho-fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+@mixin nome-paciente{
+    margin-right: $margem-direita-nome-paciente;
+    color: var($cor-1);
+    font-weight: $peso-fonte-nome-paciente;
+}
+
+@mixin idade-paciente{
+    color: $cor-nome-paciente;
+}
+
+@mixin informacoes-paciente-ul{
+    display: flux;
+    justify-content: space-between;
+    width: 80%;
+    margin: 27px auto 0 auto;
+}
+
+
+@mixin funcionalidades{
+    content: url(/assets/imagem/funcionalidades.png);
+    padding-right: 8px;
+}
+
+@mixin anotacoes{
+    content: url(/assets/imagens/caderno.png);
+    padding-right: 8px;
+}
+
+
+
+@mixin media-informacoes-paciente{
+    background-color:var($cor-1);
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 35px auto 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@mixin efeito-esconde{
+    visibility: hidden;
+}
+
+@mixin efeito-mostrar{
+    visibility: visible;
+}
+
+@mixin visibilidade{
+    visibility: unset;
+}
+
+@mixin informacoes-paciente-ul-li{
+    display: flex;
+    align-items: center;
+    height: $altura-informacoes-paciente;
+    cursor: pointer;
+    margin: $margem-direita-nome-paciente;
+    font-size: $tamanho-fonte-informacoes-paciente;
+}
+
+
+

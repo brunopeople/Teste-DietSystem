@@ -1,123 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, inital-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts/gstatic.com" crossorigin>
-        <link href="https://fonts.googlepais.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/container.css">
-        <link rel="stylesheet" href="css/calendario.css">
-        <link rel="stylesheet" href="css/section-refeicao.css">
-        <link rel="stylesheet" href="css/proxima-pagina.css">
+<html lang="en">
 
-        <title>Guia de Dieta para o DietSystem</title>
-    </head>
-    <body body class="corpo">
-        <header>
-            <div class="cabecalho-topo">
-                <a class="home" href="index.html"><img src="assets/imagens/home.png" alt="" class="home"></a>
-                <img src="assets/imagens/imagem-perfil.png" alt="" class="perfil">
-                <span class="material-icons menu">Menu</span>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/css/root.css">
+    <link rel="stylesheet" href="sass/css/resert.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-            <div class="cabecalho-fundo">
-                <h3 class="nome">Thiago Ferreira Dos Santos</h3>
-                <h3 class="idade">28 anos, 11 meses de idade</h3>
-            </div>
-            <hr>
+    <title>DietSystem</title>
+    <link rel="stylesheet" href="sass/css/body.css">
+    <link rel="stylesheet" href="sass/css/header.css">
+    <link rel="stylesheet" href="sass/css/calendario.css">
+    <link rel="stylesheet" href="sass/css/proxima-pagina.css">
+    <link rel="stylesheet" href="sass/css/section-refeicao.css">
+</head>
 
-            <div class="info-paciente">
-                <ul class="lista-opcoes hide">
-                    <span class="material-icons x">close</span>
-                    <li id="funcionalidades">Todas as funcionalidades</li>
-                    <li id="anotações">Anotações</li>
-                    <li id="dados-pacientes">Dados do Paciente</li>
-                    <li id="consulta">Finalizar Consulta</li>
+
+
+<body body class="">
+    <header>
+        <div class="header-top">
+            <a class="home" href="index.html"> <img src="assets/img/Rectangle 6.png" alt="" class="home"></a>
+            <img src="assets/img/masc 1.png" alt="" class="foto-paciente">
+            <span class="material-icons menu">menu</span>
+        </div>
+        <div class="header-bottom">
+            <h3 class="nome-paciente">Thiago Ferreira dos Santos</h3>
+            <h3 class="idade-paciente">28 anos, 11 meses</h3>
+        </div>
+        <hr>
+        <div class="informacoes-paciente">
+            <ul class="lista-opcoes hide">
+                <span class="material-icons x">close</span>
+                <li id="funcionalidades">Todas as funcionalidades</li>
+                <li id="anotações">Anotações</li>
+                <li id="dados-paciente">Dados do paciente</li>
+                <li id="consulta">Finalizar consulta</li>
+            </ul>
+
+        </div>
+    </header>
+    <section class="container section-refeicao">
+        <div class="calendario">
+            <div class="month">
+                <ul>
+                    <li class="prev">&#10094;</li>
+                    <li class="next">&#10095;</li>
+                    <li>Agosto 2021</li>
                 </ul>
             </div>
 
-            <section class="container section-refeicao">
-                <div class="calendario-diet">
-                    <div class="month">
-                        <ul>
-                            <li class="prev">&#10094;</li>
-                            <li class="next">&#10095;</li>
-                            <li>Agosto 2021</li>
-                        </ul>
-                    </div>
+            <ul class="weekdays">
+                <li>D</li>
+                <li>S</li>
+                <li>T</li>
+                <li>Q</li>
+                <li>Q</li>
+                <li>S</li>
+                <li>S</li>
+            </ul>
 
-                    <ul class="weekdays">
-                        <li>D</li>
-                        <li>S</li>
-                        <li>T</li>
-                        <li>Q</li>
-                        <li>Q</li>
-                        <li>S</li>
-                        <li>S</li>
-                    </ul>
+            <ul class="days">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</span></li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li><span class="active">16</span></li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
 
-                    <ul class="days">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                        <li>8</li>
-                        <li>9</li>
-                        <li>10</li>
-                        <li>11</li>
-                        <li>12</li>
-                        <li>13</li>
-                        <li>14</li>
-                        <li>15</li>
-                        <li>16</li>
-                        <li>17</li>
-                        <li>18</li>
-                        <li>19</li>
-                        <li>20</li>
-                        <li>21</li>
-                        <li>22</li>
-                        <li>23</li>
-                        <li>24</li>
-                        <li>25</li>
-                        <li>26</li>
-                        <li>27</li>
-                        <li>28</li>
-                        <li>29</li>
-                        <li>30</li>
-                    </ul>
-                </div>
+            </ul>
+        </div>
+        <div class="div-refeicao">
+            <h2 class="nome-refeicao">Café da manhã e pós-treino</h2>
+            <h3 class="horario-refeicao">16/08/2021 08:28</h3>
+            <p class="paragrafo-refeicao-top">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem, quam saepe rem autem quia doloremque dolorum eaque, provident corporis, vel nulla
+                quis. Enim illo officiis deserunt eaque praesentium, doloremque ducimus!</p>
+            <img class="img-refeicao" src="assets/img/sanduiche-natural-para-vender-10-receitas-faceis 1.png" alt="">
+            <p class="paragrafo-refeicao-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                explicabo ipsa. A consequatur sequi consequuntur quidem harum impedit, voluptates, dolorum eveniet
+                quo rem veritatis placeat perferendis aut nesciunt excepturi. Fugiat.</p>
+        </div>
 
-                <div class="refeicao">
-                    <h2 class="nome-refeicao">Café da manhã e pós-treino</h2>
-                    <h3 class="horario-data">16/08/2021 08:28</h3>
-                    <p class="paragrafo-top">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Exercitationem, quam saepe rem autem quia doloremque dolorum eaque, provident corporis, vel nulla
-                        quis. Enim illo officiis deserunt eaque praesentium, doloremque ducimus!</p>
-                    <img class="img-refeicao" src="assets/imagens/sanduiche-natural.png" alt="">
-                    <p class="paragrafo-fundo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
-                        explicabo ipsa. A consequatur sequi consequuntur quidem harum impedit, voluptates, dolorum eveniet
-                        quo rem veritatis placeat perferendis aut nesciunt excepturi. Fugiat.</p>
-                </div>
-            </section>
+    </section>
+    <div><span class="material-icons seta"><a href="error.html"> arrow_forward</a></span></div>
+<script src="js/menu.js"></script>
+<script src="js/img-maior.js"></script>
+</body>
 
-            <div>
-                <span class="material-icons seta"><a href="error.html">arrow_forward</a></span>
-                <script>
 
-                </script>
 
-                <script>
-                    
-                </script>
-            </div>
-        </header>
-    </body>
 </html>

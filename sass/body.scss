@@ -1,0 +1,10 @@
+@import './variaveis/variaveis.scss';
+@import './mixin/mixin.scss';
+
+body{
+   @include body;
+}
+
+.blur{
+    overflow: hidden;
+}

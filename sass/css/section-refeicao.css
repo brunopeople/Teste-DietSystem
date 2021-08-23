@@ -1,0 +1,66 @@
+.section-refeicao {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 46px;
+  position: relative;
+}
+
+.div-refeicao {
+  max-width: 100%;
+  margin: 25px auto 30px 0;
+}
+
+.horario-refeicao {
+  margin: 6px 0 0 0;
+}
+
+.paragrafo-refeicao-top {
+  display: inline-block;
+  margin: 35px 25px 19px 25px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.img-refeicao {
+  max-width: 100%;
+}
+
+.img-refeicao-maior {
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5000px;
+  box-sizing: unset;
+  backdrop-filter: blur(4px);
+}
+
+.paragrafo-refeicao-bottom {
+  text-align: justify;
+  padding: 44px 120px 35px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-refeicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 46px;
+    position: relative;
+  }
+
+  .div-refeicao {
+    max-width: 100%;
+    margin: 25px auto 30px 0;
+  }
+
+  .paragrafo-refeicao-bottom {
+    padding: 14px;
+  }
+}
+
+/*# sourceMappingURL=section-refeicao.css.map */

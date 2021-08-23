@@ -1,0 +1,83 @@
+@import '../variaveis/variaveis.scss';
+
+
+@mixin calendario{
+    max-width: $largura-maxima-calendario;
+    padding: $preenchimento-calendario;
+    background-color: var($cor-4);
+    border-radius: $raio-borda-calendario;
+    position: relative;
+    left: -50px;
+}
+
+@mixin month{
+    padding: $preenchimento-calendario-mes;
+    width: $largura-calendario-mes;
+    height: $altura-calendario-mes;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@mixin month-ul{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin month-ul-li{
+    color: var($cor-4);
+    font-size: 16px;
+    letter-spacing: $espacamento-letras-mes-li;
+
+}
+
+@mixin mes-previous{
+    float: left;
+    padding: 1px 0;
+    color: var($cor-2);
+}
+
+@mixin mes-anterior{
+    float: left;
+    padding: 1px 0;
+    color: var($cor-2);
+}
+
+@mixin mes-proximo{
+    float: right;
+    padding: 1px 0;
+    color: var($cor-2);
+}
+
+@mixin weekdays {
+    margin: 0;
+    padding: 10xp 0;
+}
+
+@mixin weekdays-li{
+    display: inline-block;
+    width: 12.6%;
+    color: var($cor-3);
+    text-align: center;
+}
+
+@mixin days-li{
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: var($cor-1);
+    cursor: pointer;
+}
+
+@mixin days-li-active{
+    padding: 5px;
+    background: $cor-de-fundo;
+    color: white !important;
+    border-radius: 2px;
+}
+
+@mixin largura-máxima-calendario{
+    position: unset;
+}
