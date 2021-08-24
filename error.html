@@ -1,106 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, inital-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts/gstatic.com" crossorigin>
-        <link href="https://fonts.googlepais.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/container.css">
-        <link rel="stylesheet" href="css/calendario.css">
-        <link rel="stylesheet" href="css/section-refeicao.css">
-        <link rel="stylesheet" href="css/proxima-pagina.css">
+<html lang="en">
 
-        <title>Guia de Dieta para o DietSystem</title>
-    </head>
-    <body body class="corpo">
-        <header>
-            <div class="cabecalho-topo">
-                <a class="home" href="index.html"><img src="assets/imagens/home.png" alt="" class="home"></a>
-                <img src="assets/imagens/imagem-perfil.png" alt="" class="perfil">
-                <span class="material-icons menu">Menu</span>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/css/resert.css">
+    <link rel="stylesheet" href="sass/css/root.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>DietSystem</title>
+    <link rel="stylesheet" href="sass/css/body.css">
+    <link rel="stylesheet" href="sass/css/header.css">
+    <link rel="stylesheet" href="sass/css/proxima-pagina.css">
+    <link rel="stylesheet" href="sass/css/container.css">
+    <link rel="stylesheet" href="sass/css/proxima-pagina.css">
+    <link rel="stylesheet" href="sass/css/section-refeicao.css">
+    <link rel="stylesheet" href="sass/css/calendario.css">
+</head>
 
-            <div class="cabecalho-fundo">
-                <h3 class="nome">Thiago Ferreira Dos Santos</h3>
-                <h3 class="idade">28 anos, 11 meses de idade</h3>
-            </div>
-            <hr>
 
-            <div class="info-paciente">
-                <ul class="lista-opcoes hide">
-                    <span class="material-icons x">close</span>
-                    <li id="funcionalidades">Todas as funcionalidades</li>
-                    <li id="anotações">Anotações</li>
-                    <li id="dados-pacientes">Dados do Paciente</li>
-                    <li id="consulta">Finalizar Consulta</li>
+
+<body class="">
+    <header>
+        <div class="header-top">
+            <a class="home" href="index.html"> <img src="assets/imagens/Rectangle 6.png" alt="" class="home"></a>
+            <img src="assets/imagens/masc 1.png" alt="" class="foto-paciente">
+            <span class="material-icons menu">menu</span>
+        </div>
+        <div class="header-bottom">
+            <h3 class="nome-paciente">Thiago Ferreira dos Santos</h3>
+            <h3 class="idade-paciente">28 anos, 11 meses</h3>
+
+        </div>
+        <hr>
+        <div class="informacoes-paciente">
+            <ul class="lista-opcoes hide">
+                <span class="material-icons x">close</span>
+                <li id="funcionalidades">Todas as funcionalidades</li>
+                <li id="anotações">Anotações</li>
+                <li id="dados-paciente">Dados do paciente</li>
+                <li id="consulta">Finalizar consulta</li>
+            </ul>
+
+        </div>
+    </header>
+    <section class="container section-refeicao">
+        <div class="calendario">
+            <div class="month">
+                <ul>
+                    <li class="prev">&#10094;</li>
+                    <li class="next">&#10095;</li>
+                    <li>Agosto 2021</li>
                 </ul>
             </div>
 
-            <section class="container section-refeicao">
-                <div class="calendario-diet">
-                    <div class="month">
-                        <ul>
-                            <li class="prev">&#10094;</li>
-                            <li class="next">&#10095;</li>
-                            <li>Agosto 2021</li>
-                        </ul>
-                    </div>
+            <ul class="weekdays">
+                <li>D</li>
+                <li>S</li>
+                <li>T</li>
+                <li>Q</li>
+                <li>Q</li>
+                <li>S</li>
+                <li>S</li>
+            </ul>
 
-                    <ul class="weekdays">
-                        <li>D</li>
-                        <li>S</li>
-                        <li>T</li>
-                        <li>Q</li>
-                        <li>Q</li>
-                        <li>S</li>
-                        <li>S</li>
-                    </ul>
+            <ul class="days">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</span></li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li><span class="active">16</span></li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
 
-                    <ul class="days">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                        <li>8</li>
-                        <li>9</li>
-                        <li>10</li>
-                        <li>11</li>
-                        <li>12</li>
-                        <li>13</li>
-                        <li>14</li>
-                        <li>15</li>
-                        <li>16</li>
-                        <li>17</li>
-                        <li>18</li>
-                        <li>19</li>
-                        <li>20</li>
-                        <li>21</li>
-                        <li>22</li>
-                        <li>23</li>
-                        <li>24</li>
-                        <li>25</li>
-                        <li>26</li>
-                        <li>27</li>
-                        <li>28</li>
-                        <li>29</li>
-                        <li>30</li>
-                    </ul>
-                </div>
+            </ul>
+        </div>
+        <div class="div-refeicao erro">
+            <img src="assets/imagens/not_found.png" alt="">
+            <p id="paragrafo-erro">O paciente não fez registros na data selecionada</p>
 
-                <div class="refeicao-erro">
-                    <img src="assets/imagens/not_found.png" alt="">
-                    <p id="paragrafo-erro">O paciente não fez nenhum registro na data selecionado</p>
-                </div>
-            </section>
-        <script src="">
-        </script>
-    </body>
+        </div>
+
+    </section>
+
+    <script src="javascript/menu.js"></script>
+</body>
+
 </html>
